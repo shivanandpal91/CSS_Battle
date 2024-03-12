@@ -29,9 +29,10 @@ body{
     background-color:rgb(92, 92, 220);
 }
 .text{
-    width:380px;
-    height:100px;
+    width:70%;
+    height:200px;
     margin:20px;
+    background-color: rgb(24, 24, 84);
 }
 .main{
     display:inline-block;
@@ -69,8 +70,23 @@ input[type="text"] {
     width: 300px; 
     height: 40px; 
     padding: 10px; 
-    border: 2px solid #ccc; /
+    border: 2px solid #ccc; 
     border-radius: 5px; 
     font-size: 16px; 
     color: #333; 
+    background-color: rgb(24, 24, 84);
   }
+  .submit{
+    display:block !important;
+    width: 60px; 
+    height: 40px; 
+    padding: 10px; 
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+    font-size: 20px; 
+    color: #333; 
+    background-color:rgb(183, 74, 93);
+    margin:20px;
+    cursor:pointer;
+  }
+  
