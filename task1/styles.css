@@ -10,7 +10,8 @@ body{
 .head{
     display:inline-flex;
     width:200px;
-    
+    margin-right:100px;
+    font-weight: 300;
     color:aliceblue;
     
 }
@@ -24,14 +25,15 @@ body{
 }
 .form{
     display:inline-flex;
-    margin:30px;
+    margin:15px;
     
     background-color:rgb(92, 92, 220);
 }
 .text{
-    width:70%;
-    height:200px;
+    width:69%;
+    height:150px;
     margin:20px;
+    font-size: 20px;
     background-color: rgb(24, 24, 84);
 }
 .main{
@@ -45,29 +47,39 @@ body{
 
 }
 .main2{
-    width:50%
+    width:40%
 }
 
 .main2 div{
     display:inline;
     font-weight: bold;
+    /* margin:20px; */
     color:rgb(183, 74, 93);
     width:100px;
     height:100px;
 }
+.contactheading{
+    color:rgb(183, 74, 93);
+    margin-top:80px;
+}
+.contactfollow{
+    color:rgb(183, 74, 93);
+    margin-top:50px;
+}
+
 .contactinfo{
     color:rgb(255, 255, 255);
     
 }
 .img {
-    height: 30px; 
+    height: 40px; 
     width: auto;
     margin:10px;
     border-radius: 40%;
 }
 input[type="text"] {
     display :inline-flex;
-    width: 300px; 
+    width: 350px; 
     height: 40px; 
     padding: 10px; 
     border: 2px solid #ccc; 
